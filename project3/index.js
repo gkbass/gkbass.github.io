@@ -1,9 +1,9 @@
 const datasets = [
-  { name: 'Chinese Satellites', url: '_china.txt' },
-  { name: 'United States Satellites', url: '_ustates.txt' },
+  { name: 'Chinese Satellites', url: 'china.txt' },
+  { name: 'United States Satellites', url: 'ustates.txt' },
 //  { name: 'Navigation (GPS)', url: '_space-track-gps.txt' },
-  { name: 'China Operator/Owner', url: '_chinacomp.txt' },
-  { name: 'US Operator/Owner', url: '_uscomp.txt' }
+  { name: 'China Operator/Owner', url: 'chinacomp.txt' },
+  { name: 'US Operator/Owner', url: 'uscomp.txt' }
 //  { name: 'Highly Eliptical Orbit (HEO)', url: '_uscomp.txt' }  
 //  { name: 'Low Earth Orbit (MEO)', url: '_space-track-leo.txt'}
 ];

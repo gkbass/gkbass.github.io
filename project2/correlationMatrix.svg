@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="matrix" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 774.5 594.5" style="enable-background:new 0 0 774.5 594.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#A7A9AC;stroke-width:0.5;stroke-miterlimit:10;}
+	.st1{fill:#D7EDF9;stroke:#231F20;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:#B2DEF5;stroke:#231F20;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:#8BD0F0;stroke:#231F20;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{fill:#02B8E9;stroke:#231F20;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;}
+	
+		.st5{opacity:0.75;fill:#569EBE;stroke:#231F20;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;enable-background:new    ;}
+	.st6{fill:#5FC3ED;stroke:#231F20;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;}
+	
+		.st7{opacity:0.75;fill:#3CBEEE;stroke:#231F20;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;enable-background:new    ;}
+	.st8{fill:#231F20;}
+	.st9{font-family:'Georgia';}
+	.st10{font-size:7px;}
+	.st11{fill:none;stroke:#231F20;stroke-miterlimit:10;}
+	.st12{enable-background:new    ;}
+	.st13{font-family:'Georgia-Bold';}
+	.st14{font-size:12px;}
+	.st15{letter-spacing:32;}
+	.st16{fill:#D1D3D4;stroke:#231F20;stroke-width:0.5;stroke-miterlimit:10;}
+	.st17{font-size:6.87px;}
+	
+		.st18{opacity:0.75;fill:#02B8E9;stroke:#231F20;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;enable-background:new    ;}
+	.st19{font-size:6px;}
+	.st20{font-size:10px;}
+</style>
+<title>correlationMatrix</title>
+<line class="st0" x1="323.8" y1="188" x2="756.4" y2="188"/>
+<line class="st0" x1="324.6" y1="226.5" x2="757.2" y2="226.5"/>
+<line class="st0" x1="323.4" y1="265.4" x2="756" y2="265.4"/>
+<line class="st0" x1="324.2" y1="303.9" x2="756.7" y2="303.9"/>
+<line class="st0" x1="323.4" y1="341.4" x2="756" y2="341.4"/>
+<line class="st0" x1="324.2" y1="379.9" x2="756.7" y2="379.9"/>
+<line class="st0" x1="323.4" y1="415.6" x2="756" y2="415.6"/>
+<line class="st0" x1="324.2" y1="454" x2="756.7" y2="454"/>
+<line class="st0" x1="323.4" y1="492" x2="756" y2="492"/>
+<line class="st0" x1="324.2" y1="530.5" x2="756.7" y2="530.5"/>
+<line class="st0" x1="323.4" y1="568" x2="756" y2="568"/>
+<line class="st0" x1="336.2" y1="577.4" x2="336.2" y2="174.8"/>
+<line class="st0" x1="377.8" y1="576.6" x2="377.8" y2="174"/>
+<line class="st0" x1="420" y1="577.8" x2="420" y2="175.2"/>
+<line class="st0" x1="461.6" y1="577" x2="461.6" y2="174.4"/>
+<line class="st0" x1="502.2" y1="577.8" x2="502.2" y2="175.2"/>
+<line class="st0" x1="543.8" y1="577" x2="543.8" y2="174.4"/>
+<line class="st0" x1="582.4" y1="577.8" x2="582.4" y2="175.2"/>
+<line class="st0" x1="624" y1="577" x2="624" y2="174.4"/>
+<line class="st0" x1="665.1" y1="577.8" x2="665.1" y2="175.2"/>
+<line class="st0" x1="706.7" y1="577" x2="706.7" y2="174.4"/>
+<line class="st0" x1="747.3" y1="577.8" x2="747.3" y2="175.2"/>
+<ellipse class="st1" cx="729.1" cy="285.2" rx="12.6" ry="12.5"/>
+<ellipse class="st1" cx="602.1" cy="324.1" rx="12.6" ry="12.5"/>
+<ellipse class="st1" cx="643.5" cy="324.5" rx="12.6" ry="12.5"/>
+<ellipse class="st1" cx="686.3" cy="324.3" rx="12.6" ry="12.5"/>
+<ellipse class="st1" cx="481.6" cy="511" rx="12.6" ry="12.5"/>
+<ellipse class="st1" cx="644.1" cy="551.3" rx="12.6" ry="12.5"/>
+<ellipse class="st1" cx="685" cy="551.8" rx="12.6" ry="12.5"/>
+<ellipse class="st2" cx="441.4" cy="246.5" rx="14.4" ry="14.3"/>
+<ellipse class="st2" cx="481.5" cy="246.9" rx="14.4" ry="14.3"/>
+<ellipse class="st2" cx="645.6" cy="246.9" rx="14.4" ry="14.3"/>
+<ellipse class="st2" cx="398.4" cy="323.7" rx="14.4" ry="14.3"/>
+<ellipse class="st2" cx="441.2" cy="323.8" rx="14.4" ry="14.3"/>
+<ellipse class="st2" cx="523" cy="324.2" rx="14.4" ry="14.3"/>
+<ellipse class="st2" cx="728.6" cy="324" rx="14.4" ry="14.3"/>
+<ellipse class="st2" cx="727.7" cy="361" rx="14.4" ry="14.3"/>
+<ellipse class="st2" cx="481" cy="474.1" rx="14.4" ry="14.3"/>
+<ellipse class="st2" cx="728.3" cy="513.6" rx="14.4" ry="14.3"/>
+<ellipse class="st2" cx="522.9" cy="549.9" rx="14.4" ry="14.3"/>
+<ellipse class="st1" cx="441.4" cy="550.7" rx="12.6" ry="12.5"/>
+<ellipse class="st3" cx="645.2" cy="207" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="685.5" cy="207.8" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="357.2" cy="246.9" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="523.7" cy="246.4" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="562.8" cy="246.1" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="603.2" cy="246.4" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="685.8" cy="246.2" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="727.7" cy="247.8" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="398.4" cy="285.1" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="482" cy="285.5" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="603.8" cy="285.2" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="644.6" cy="285.5" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="563.3" cy="323.8" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="481.9" cy="360.5" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="686.1" cy="361.1" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="480.9" cy="397.4" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="726.3" cy="398.3" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="441.5" cy="435.5" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="481.7" cy="436.1" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="644.1" cy="435.2" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="725.8" cy="435.2" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="397.6" cy="474.1" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="442" cy="474.5" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="603.9" cy="473.9" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="685.7" cy="473.9" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="727.3" cy="474.2" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="398.8" cy="511.7" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="442.1" cy="511.7" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="644.8" cy="511.1" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="397.9" cy="550" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="481.8" cy="549.7" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="563.2" cy="549.9" rx="16.2" ry="16.1"/>
+<ellipse class="st3" cx="603.7" cy="549.9" rx="16.2" ry="16.1"/>
+<ellipse class="st4" cx="604" cy="207.7" rx="19.8" ry="19.7"/>
+<ellipse class="st5" cx="729.3" cy="207" rx="24.1" ry="24"/>
+<ellipse class="st5" cx="357.4" cy="551" rx="24.1" ry="24"/>
+<ellipse class="st6" cx="440.5" cy="207.4" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="523.6" cy="207.6" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="356.7" cy="285" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="523.8" cy="286" rx="18" ry="17.9"/>
+<ellipse class="st7" cx="562.3" cy="511.6" rx="21.6" ry="21.5"/>
+<ellipse class="st7" cx="564.4" cy="473.8" rx="21.6" ry="21.5"/>
+<ellipse class="st5" cx="645" cy="397.5" rx="24.1" ry="24"/>
+<ellipse class="st4" cx="399.8" cy="399.3" rx="19.8" ry="19.7"/>
+<ellipse class="st4" cx="601.9" cy="399.6" rx="19.8" ry="19.7"/>
+<ellipse class="st4" cx="399.3" cy="208.1" rx="19.8" ry="19.7"/>
+<ellipse class="st4" cx="482.2" cy="207.8" rx="19.8" ry="19.7"/>
+<ellipse class="st4" cx="563.3" cy="208" rx="19.8" ry="19.7"/>
+<ellipse class="st4" cx="562.4" cy="362.2" rx="19.8" ry="19.7"/>
+<ellipse class="st4" cx="522.6" cy="474.5" rx="19.8" ry="19.7"/>
+<ellipse class="st4" cx="562.5" cy="435.2" rx="19.8" ry="19.7"/>
+<ellipse class="st4" cx="355.3" cy="434.8" rx="19.8" ry="19.7"/>
+<ellipse class="st7" cx="356.1" cy="396.3" rx="21.6" ry="21.5"/>
+<ellipse class="st7" cx="522.4" cy="400.5" rx="21.6" ry="21.5"/>
+<ellipse class="st7" cx="442.4" cy="398.3" rx="21.6" ry="21.5"/>
+<ellipse class="st3" cx="355.9" cy="474.5" rx="16.2" ry="16.1"/>
+<ellipse class="st6" cx="357.1" cy="324.4" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="356.9" cy="359.9" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="399.4" cy="360.4" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="440.8" cy="360.8" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="358.2" cy="511.1" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="524.5" cy="436" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="399.5" cy="437.4" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="521.8" cy="513.9" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="604" cy="511.9" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="603.5" cy="360.6" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="686" cy="285.3" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="645.4" cy="362" rx="18" ry="17.9"/>
+<ellipse class="st6" cx="685.5" cy="435.3" rx="18" ry="17.9"/>
+<ellipse class="st5" cx="688.3" cy="399.3" rx="24.1" ry="24"/>
+<ellipse class="st7" cx="564.7" cy="284.6" rx="21.6" ry="21.5"/>
+<text transform="matrix(1 0 0 1 390 209.44)" class="st8 st9 st10">7,041</text>
+<text transform="matrix(1 0 0 1 431.34 209.78)" class="st8 st9 st10">3,915</text>
+<text transform="matrix(1 0 0 1 472.67 209.78)" class="st8 st9 st10">5,558</text>
+<text transform="matrix(1 0 0 1 514 208.78)" class="st8 st9 st10">3,909</text>
+<text transform="matrix(1 0 0 1 554.67 209.11)" class="st8 st9 st10">9,684</text>
+<text transform="matrix(1 0 0 1 637.67 209.44)" class="st8 st9 st10">1,685</text>
+<text transform="matrix(1 0 0 1 678 209.11)" class="st8 st9 st10">2,391</text>
+<text transform="matrix(1 0 0 1 719 208.78)" class="st8 st9 st10">87,565</text>
+<text transform="matrix(1 0 0 1 346.67 552.44)" class="st8 st9 st10">52,649</text>
+<text transform="matrix(1 0 0 1 390.67 552.44)" class="st8 st9 st10">1,734</text>
+<text transform="matrix(1 0 0 1 436 552.78)" class="st8 st9 st10">324</text>
+<text transform="matrix(1 0 0 1 473.34 552.44)" class="st8 st9 st10">1,039</text>
+<text transform="matrix(1 0 0 1 517.34 552.44)" class="st8 st9 st10">879</text>
+<text transform="matrix(1 0 0 1 556 551.78)" class="st8 st9 st10">1,014</text>
+<text transform="matrix(1 0 0 1 639.34 552.44)" class="st8 st9 st10">351</text>
+<text transform="matrix(1 0 0 1 680.34 553.44)" class="st8 st9 st10">381</text>
+<text transform="matrix(1 0 0 1 346.67 402.11)" class="st8 st9 st10">12,377</text>
+<text transform="matrix(1 0 0 1 391.34 402.11)" class="st8 st9 st10">5,431</text>
+<text transform="matrix(1 0 0 1 431.67 402.11)" class="st8 st9 st10">14,213</text>
+<text transform="matrix(1 0 0 1 474.34 402.11)" class="st8 st9 st10">2,381</text>
+<text transform="matrix(1 0 0 1 513.34 401.78)" class="st8 st9 st10">16,419</text>
+<text transform="matrix(1 0 0 1 636 401.11)" class="st8 st9 st10">28,115</text>
+<text transform="matrix(1 0 0 1 677.67 401.44)" class="st8 st9 st10">22,471</text>
+<text transform="matrix(1 0 0 1 719 401.11)" class="st8 st9 st10">1,586</text>
+<text transform="matrix(1 0 0 1 349 327.44)" class="st8 st9 st10">4,985</text>
+<text transform="matrix(1 0 0 1 393.34 327.44)" class="st8 st9 st10">942</text>
+<text transform="matrix(1 0 0 1 435 327.78)" class="st8 st9 st10">995</text>
+<text transform="matrix(1 0 0 1 516.67 326.78)" class="st8 st9 st10">887</text>
+<text transform="matrix(1 0 0 1 556.34 326.78)" class="st8 st9 st10">1,051</text>
+<text transform="matrix(1 0 0 1 639.34 325.44)" class="st8 st9 st10">371</text>
+<text transform="matrix(1 0 0 1 680.34 325.44)" class="st8 st9 st10">366</text>
+<text transform="matrix(1 0 0 1 723.34 326.44)" class="st8 st9 st10">974</text>
+<text transform="matrix(1 0 0 1 348.67 364.78)" class="st8 st9 st10">4,110</text>
+<text transform="matrix(1 0 0 1 390.67 364.11)" class="st8 st9 st10">3,467</text>
+<text transform="matrix(1 0 0 1 433.34 363.44)" class="st8 st9 st10">4,112</text>
+<text transform="matrix(1 0 0 1 474 364.44)" class="st8 st9 st10">1,455</text>
+<text transform="matrix(1 0 0 1 555.67 364.11)" class="st8 st9 st10">9,219</text>
+<text transform="matrix(1 0 0 1 637.34 363.11)" class="st8 st9 st10">4,939</text>
+<text transform="matrix(1 0 0 1 678.34 363.78)" class="st8 st9 st10">2,584</text>
+<text transform="matrix(1 0 0 1 722.34 363.78)" class="st8 st9 st10">898</text>
+<text transform="matrix(1 0 0 1 347.67 478.44)" class="st8 st9 st10">2,086</text>
+<text transform="matrix(1 0 0 1 389.67 477.44)" class="st8 st9 st10">1,134</text>
+<text transform="matrix(1 0 0 1 433.34 477.44)" class="st8 st9 st10">2,699</text>
+<text transform="matrix(1 0 0 1 476.34 478.11)" class="st8 st9 st10">568</text>
+<text transform="matrix(1 0 0 1 514.34 478.44)" class="st8 st9 st10">6,534</text>
+<text transform="matrix(1 0 0 1 553.67 478.11)" class="st8 st9 st10">19,036</text>
+<text transform="matrix(1 0 0 1 677.67 478.44)" class="st8 st9 st10">1,185</text>
+<text transform="matrix(1 0 0 1 720 477.78)" class="st8 st9 st10">2,725</text>
+<text transform="matrix(1 0 0 1 349.67 248.44)" class="st8 st9 st10">2,694</text>
+<text transform="matrix(1 0 0 1 435.67 248.44)" class="st8 st9 st10">953</text>
+<text transform="matrix(1 0 0 1 676 514.44)" class="st8 st9 st10">------</text>
+<text transform="matrix(1 0 0 1 476 248.11)" class="st8 st9 st10">796</text>
+<text transform="matrix(1 0 0 1 516 247.44)" class="st8 st9 st10">1,932</text>
+<text transform="matrix(1 0 0 1 556.34 248.11)" class="st8 st9 st10">2,879</text>
+<text transform="matrix(1 0 0 1 639.34 248.44)" class="st8 st9 st10">607</text>
+<text transform="matrix(1 0 0 1 678.67 247.78)" class="st8 st9 st10">2,190</text>
+<text transform="matrix(1 0 0 1 720 247.44)" class="st8 st9 st10">1,039</text>
+<text transform="matrix(1 0 0 1 348.67 288.11)" class="st8 st9 st10">3,893</text>
+<text transform="matrix(1 0 0 1 390 288.11)" class="st8 st9 st10">1,373</text>
+<text transform="matrix(1 0 0 1 473.67 287.78)" class="st8 st9 st10">1,079</text>
+<text transform="matrix(1 0 0 1 516.34 287.44)" class="st8 st9 st10">4,773</text>
+<text transform="matrix(1 0 0 1 555.34 287.44)" class="st8 st9 st10">10,336</text>
+<text transform="matrix(1 0 0 1 637 286.44)" class="st8 st9 st10">2,498</text>
+<text transform="matrix(1 0 0 1 679.34 286.78)" class="st8 st9 st10">3,055</text>
+<text transform="matrix(1 0 0 1 723.34 286.44)" class="st8 st9 st10">399</text>
+<text transform="matrix(1 0 0 1 349.34 515.78)" class="st8 st9 st10">3,167</text>
+<text transform="matrix(1 0 0 1 391.67 514.44)" class="st8 st9 st10">2,269</text>
+<text transform="matrix(1 0 0 1 434.34 514.11)" class="st8 st9 st10">2,693</text>
+<text transform="matrix(1 0 0 1 476.34 513.44)" class="st8 st9 st10">201</text>
+<text transform="matrix(1 0 0 1 516 514.78)" class="st8 st9 st10">4,031</text>
+<text transform="matrix(1 0 0 1 553.34 514.44)" class="st8 st9 st10">10,146</text>
+<text transform="matrix(1 0 0 1 638 514.44)" class="st8 st9 st10">2,141</text>
+<text transform="matrix(1 0 0 1 723.34 515.11)" class="st8 st9 st10">707</text>
+<text transform="matrix(1 0 0 1 597 209.11)" class="st8 st9 st10">4,175</text>
+<text transform="matrix(1 0 0 1 595.34 551.78)" class="st8 st9 st10">1,341</text>
+<text transform="matrix(1 0 0 1 593.34 400.44)" class="st8 st9 st10">7,647</text>
+<text transform="matrix(1 0 0 1 597 325.44)" class="st8 st9 st10">411</text>
+<text transform="matrix(1 0 0 1 596 363.44)" class="st8 st9 st10">3,094</text>
+<text transform="matrix(1 0 0 1 594 477.11)" class="st8 st9 st10">1,964</text>
+<text transform="matrix(1 0 0 1 595.34 247.78)" class="st8 st9 st10">2,601</text>
+<text transform="matrix(1 0 0 1 596 286.78)" class="st8 st9 st10">2,239</text>
+<text transform="matrix(1 0 0 1 595 512.44)" class="st8 st9 st10">3,191</text>
+<text transform="matrix(1 0 0 1 347.8 437.66)" class="st8 st9 st10">5,838</text>
+<text transform="matrix(1 0 0 1 390.58 437.65)" class="st8 st9 st10">4,307</text>
+<text transform="matrix(1 0 0 1 433.37 437.66)" class="st8 st9 st10">2,463</text>
+<text transform="matrix(1 0 0 1 473.18 437)" class="st8 st9 st10">1,363</text>
+<text transform="matrix(1 0 0 1 515.94 437.64)" class="st8 st9 st10">3,573</text>
+<text transform="matrix(1 0 0 1 554.44 437.67)" class="st8 st9 st10">6,350</text>
+<text transform="matrix(1 0 0 1 636.39 436.67)" class="st8 st9 st10">1,507</text>
+<text transform="matrix(1 0 0 1 677.52 437.34)" class="st8 st9 st10">3,058</text>
+<text transform="matrix(1 0 0 1 718.99 436.9)" class="st8 st9 st10">1,735</text>
+<text transform="matrix(1 0 0 1 350.67 209.11)" class="st8 st9 st10">------</text>
+<text transform="matrix(1 0 0 1 390.67 249.44)" class="st8 st9 st10">------</text>
+<text transform="matrix(1 0 0 1 434.67 288.78)" class="st8 st9 st10">------</text>
+<text transform="matrix(1 0 0 1 474.67 326.11)" class="st8 st9 st10">------</text>
+<text transform="matrix(1 0 0 1 514.67 366.44)" class="st8 st9 st10">------</text>
+<text transform="matrix(1 0 0 1 555.67 400.78)" class="st8 st9 st10">------</text>
+<text transform="matrix(1 0 0 1 596 438.78)" class="st8 st9 st10">------</text>
+<text transform="matrix(1 0 0 1 636 477.11)" class="st8 st9 st10">------</text>
+<text transform="matrix(1 0 0 1 676 514.44)" class="st8 st9 st10">------</text>
+<text transform="matrix(1 0 0 1 720 551.11)" class="st8 st9 st10">------</text>
+<text transform="matrix(1 0 0 1 209.67 210.44)" class="st8 st9 st10">Los Angeles, Long Beach, Anaheim CA</text>
+<text transform="matrix(1 0 0 1 205 552.44)" class="st8 st9 st10">Riverside, San Bernardino, Ontario CA</text>
+<text transform="matrix(1 0 0 1 200 403.11)" class="st8 st9 st10">New York, Newark, Jersey City NY-NJ-PA</text>
+<text transform="matrix(1 0 0 1 219.34 329.11)" class="st8 st9 st10">San Jose, Sunnyvale, Santa Clara CA</text>
+<text transform="matrix(1 0 0 1 172.34 367.78)" class="st8 st9 st10">Washington, Arlington, Alexandria DC-VA-MD-WV</text>
+<text transform="matrix(1 0 0 1 192 515.11)" class="st8 st9 st10">Miami, Fort Lauderdale, West Palm Beach FL</text>
+<text transform="matrix(1 0 0 1 174.67 477.11)" class="st8 st9 st10">Philadelphia, Camden, Wilmington PA-NJ-DE-MD</text>
+<text transform="matrix(1 0 0 1 219.67 439.44)" class="st8 st9 st10">Chicago, Naperville, Elgin IL-IN-WI</text>
+<text transform="matrix(1 0 0 1 228.67 251.11)" class="st8 st9 st10">Dallas, Fort Worth, Arlington TX</text>
+<text transform="matrix(1 0 0 1 217.67 288.44)" class="st8 st9 st10">Boston, Cambridge, Newton MA-NH</text>
+<text transform="matrix(-1.221725e-03 -1 1 -1.221725e-03 358.33 182.7195)" class="st8 st9 st10">Los Angeles, Long Beach, Anaheim CA</text>
+<text transform="matrix(-1.221725e-03 -1 1 -1.221725e-03 730.99 180.2303)" class="st8 st9 st10">Riverside, San Bernardino, Ontario CA</text>
+<text transform="matrix(-1.221725e-03 -1 1 -1.221725e-03 564.99 183.7801)" class="st8 st9 st10">New York, Newark, Jersey City NY-NJ-PA</text>
+<text transform="matrix(-1.221725e-03 -1 1 -1.221725e-03 483.33 183.2195)" class="st8 st9 st10">San Jose, Sunnyvale, Santa Clara CA</text>
+<text transform="matrix(-1.221725e-03 -1 1 -1.221725e-03 525.66 182.8299)" class="st8 st9 st10">Washington, Arlington, Alexandria DC-VA-MD-WV</text>
+<text transform="matrix(-1.221725e-03 -1 1 -1.221725e-03 686.99 183.9598)" class="st8 st9 st10">Miami, Fort Lauderdale, West Palm Beach FL</text>
+<text transform="matrix(-1.221725e-03 -1 1 -1.221725e-03 646.66 183.6805)" class="st8 st9 st10">Philadelphia, Camden, Wilmington PA-NJ-DE-MD</text>
+<text transform="matrix(-1.221725e-03 -1 1 -1.221725e-03 604.66 183.0603)" class="st8 st9 st10">Chicago, Naperville, Elgin IL-IN-WI</text>
+<text transform="matrix(-1.221725e-03 -1 1 -1.221725e-03 401.32 182.66)" class="st8 st9 st10">Dallas, Fort Worth, Arlington TX</text>
+<text transform="matrix(-1.221725e-03 -1 1 -1.221725e-03 444.66 182.9402)" class="st8 st9 st10">Boston, Cambridge, Newton MA-NH</text>
+<text transform="matrix(1 0 0 1 273 183.78)" class="st8 st9 st10">FROM MSA (A)</text>
+<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 327.67 173.1104)" class="st8 st9 st10">TO MSA (B)</text>
+<rect x="9.6" y="9" class="st11" width="756" height="578.3"/>
+<text transform="matrix(1 0 0 1 665.38 583.35)" class="st8 st9 st10">Cartography by Georgia K. Bass</text>
+<text transform="matrix(1 0 0 1 20.32 25.94)" class="st12"><tspan x="0" y="0" class="st8 st13 st14">MIGRATION IN THE UNITED STATES BETWEEN METROPOLITAN </tspan><tspan x="0" y="14.4" class="st8 st13 st14 st15">								</tspan><tspan x="288" y="14.4" class="st8 st13 st14">          STATISTICAL AREAS</tspan></text>
+<text transform="matrix(1 0 0 1 12.25 582.02)" class="st8 st9 st10">American Community Survey Metro-to-Metro Area Migration Flows Data, 2010-2014</text>
+<g>
+	<rect x="23.2" y="294.3" class="st16" width="107.4" height="270.5"/>
+	<text transform="matrix(1.02 0 0 1 55.9302 303.7598)" class="st8 st9 st17">Color Legend</text>
+	<ellipse class="st5" cx="44.8" cy="329.3" rx="18.7" ry="18.3"/>
+	<ellipse class="st7" cx="44.7" cy="369.2" rx="16.8" ry="16.4"/>
+	<ellipse class="st18" cx="44.6" cy="405.6" rx="15.4" ry="15"/>
+	<ellipse class="st6" cx="44.1" cy="441" rx="14" ry="13.7"/>
+	<ellipse class="st3" cx="43.8" cy="473.4" rx="12.6" ry="12.3"/>
+	<ellipse class="st2" cx="43.9" cy="504.4" rx="11.2" ry="10.9"/>
+	<ellipse class="st1" cx="44" cy="530.6" rx="9.8" ry="9.6"/>
+	<text transform="matrix(1.02 0 0 1 67.5898 533.1299)" class="st8 st9 st17">&lt; 500</text>
+	<text transform="matrix(1.02 0 0 1 68.3701 507.8496)" class="st8 st9 st17">501 &lt; 1,000</text>
+	<text transform="matrix(1.02 0 0 1 67.1499 477.04)" class="st8 st9 st17">1,001 &lt; 3,000</text>
+	<text transform="matrix(1.02 0 0 1 67.4399 443.4697)" class="st8 st9 st17">3,001 &lt; 5,000</text>
+	<text transform="matrix(1.02 0 0 1 66.7002 409.1104)" class="st8 st9 st17">5,001 &lt; 10,000</text>
+	<text transform="matrix(1.02 0 0 1 68.48 372.4697)" class="st8 st9 st17">10,001 &lt; 20,000</text>
+	<text transform="matrix(1.02 0 0 1 68.8501 329.9697)" class="st8 st9 st17">20,001 &lt; 90,000</text>
+	<text transform="matrix(1 0 0 1 33.06 552.94)" class="st8 st9 st17">Number of People Migrating</text>
+	<text transform="matrix(1 0 0 1 39.86 559.98)" class="st8 st9 st19">90% Confidence Interval</text>
+</g>
+<text transform="matrix(1 0 0 1 20.38 42.45)" class="st8 st13 st20">Correlation matrix </text>
+<text transform="matrix(1 0 0 1 120.71 42.45)" class="st8 st9 st20">diagrams visual</text>
+<text transform="matrix(1 0 0 1 190.67 42.45)" class="st8 st9 st20">-</text>
+<text transform="matrix(1 0 0 1 20.38 54.45)" class="st8 st9 st20">ize a network by treating nodes as rows </text>
+<text transform="matrix(1 0 0 1 20.38 66.45)" class="st8 st9 st20">and columns of a table. This correlation </text>
+<text transform="matrix(1 0 0 1 20.38 78.45)" class="st8 st9 st20">matrix shows migration flow counts </text>
+<text transform="matrix(1 0 0 1 20.38 90.45)" class="st8 st9 st20">between the ten largest metropolitan </text>
+<text transform="matrix(1 0 0 1 20.38 102.45)" class="st8 st9 st20">statistical areas (MSA) across the United </text>
+<text transform="matrix(1 0 0 1 20.38 114.45)" class="st8 st9 st20">States between 2010 and 2014. Each </text>
+<text transform="matrix(1 0 0 1 20.38 126.45)" class="st8 st9 st20">gird contains the number of individuals </text>
+<text transform="matrix(1 0 0 1 20.38 138.45)" class="st8 st9 st20">migrating between MSAs. The size of the </text>
+<text transform="matrix(1 0 0 1 20.38 150.45)" class="st8 st9 st20">circle correlates with the magnitude of </text>
+<text transform="matrix(1 0 0 1 20.38 162.45)" class="st8 st9 st20">individuals migrating. </text>
+<text transform="matrix(1 0 0 1 20.38 186.45)" class="st8 st9 st20">A </text>
+<text transform="matrix(1 0 0 1 29.58 186.45)" class="st8 st13 st20">metropolitan statistical area</text>
+<text transform="matrix(1 0 0 1 176.72 186.45)" class="st8 st9 st20"> as </text>
+<text transform="matrix(1 0 0 1 20.38 198.45)" class="st8 st9 st20">defined by the Office of Management </text>
+<text transform="matrix(1 0 0 1 20.38 210.45)" class="st8 st9 st20">and Budget states “MSA’s have at least </text>
+<text transform="matrix(1 0 0 1 20.38 222.45)" class="st8 st9 st20">one urbanized area of 50,000 or more </text>
+<text transform="matrix(1 0 0 1 20.38 234.45)" class="st8 st9 st20">population, plus adjacent territory that </text>
+<text transform="matrix(1 0 0 1 20.38 246.45)" class="st8 st9 st20">has a high degree of social and economic </text>
+<text transform="matrix(1 0 0 1 20.38 258.45)" class="st8 st9 st20">integration with the core as measured by </text>
+<text transform="matrix(1 0 0 1 20.38 270.45)" class="st8 st9 st20">commuting ties” (White House </text>
+<text transform="matrix(1 0 0 1 20.38 282.45)" class="st8 st9 st20">Archives, 2015).</text>
+</svg>

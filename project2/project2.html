@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+
+<title>US Human Migration Patterns</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../styles.css">
+
+<!-- chord diagram -->
+<script type="text/javascript" src="chordDiagram/d3.v3.min.js"></script>
+
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="/index.html" class="w3-bar-item w3-button"><b>Think</b> SPATIAL</a>
+
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="/index.html" class="w3-bar-item w3-button">PROJECTS</a>
+                <a href="/index.html" class="w3-bar-item w3-button">ABOUT</a>
+                <a href="/index.html" class="w3-bar-item w3-button">CONTACT</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+
+    <!-- Main Content -->
+
+    <div class="w3-container w3-padding-32" id="projects">
+
+        <h1>Data Visualization and Analysis of Metropolitan Human Migration Flow Patterns in the United States</h1>
+
+        <p align="justify">
+            <b>Introduction:</b>
+            Factors that drive human migration include environmental conditions, economic stability, and political unrest. Whether external or internal forces cause humans to move, visually mapping human migration across the United States can inform policy makers, economists, and contribute to a more in-depth understanding of why people move. In this paper, we analyzed in and out flow migration counts between the largest Metropolitan Statistical Areas of the United States between 2012 and 2016. Visualizing these internal migration flows through interactive tools makes it possible to see large data patterns through virtual telescopes. As Hidalgo and Almossawi cite, “these new visualizations [..] allow the emergence of a richer relationship between the visualization and the reader, who is now less of a spectator and more an explorer.”
+        </p>
+
+        <aside align="justify">
+            The following visualizations:
+            <b>chord diagram, symbol map, and correlation matrix </b>
+            were created for a research study being conducted at Texas A&M University, College Station in the Department of Geography. This research project was funded through the National Science Foundation Undergraduate Research Program (REU) where eleven undergraduate students in the domain of cyberGIS, computer science, and public health students came together to form a cohort.
+        </aside>
+        <p align="justify">
+            REU students will be engaged in critical and current research problems, advancing student-led discovery, while promoting teaching and training through a hands-on research and mentoring program. The program will advance discovery, while promoting training and learning through a problem-based and hands-on undergraduate research and mentoring program that is intended to build independence and confidence in research. Research results will advance Cyber-HealthGIS, addressing both theoretical and methodological shortcomings this field. Expected outcomes include joint faculty-student publications in research journals, seminars, and conferences, and student presentations of their research. This project will fill a critical US workforce gap by creating a cohort of students trained and interested in pursuing research and scientific careers at the intersection of several important research domains. This project will make freely available examples of prototype applications, thereby advance the capabilities Cyber-HealthGIS research.
+        </p>
+        <p>
+            This project is supported by a grant from the US National Science Foundation (NSF Project# 1560106) Click <a href="https://cyberhealthgis.tamu.edu">here</a> for more information.
+        </p>
+        <p>
+            Open-sourced data from the United States Census Bureau, <a href="https://www.census.gov/data/tables/2014/demo/geographic-mobility/metro-to-metro-migration.html2010-2014">American Community Survey Metro-to-Metro Area Migration Flows.</a>
+        </p>
+
+        <p1><b>CHORD DIAGRAM</b></p1>
+
+        <aside align="justify">
+            Chord diagrams are a type of visualization showing inter-relationships between a dataset or between different groups of data. (DataVizCatalogue). This chord diagram depicts migration between the largest metropolitan statistical areas (MSA) of the United States from 2010 to 2014.
+            <p>
+                The nodes arranged around the circle represent the metropolitan statistical areas (MSA). The relationship between the MSAs are shown through the use of arcs or <a href="https://pomax.github.io/bezierinfo/">Bezier curves</a>. The magitude of people of migrating between the MSAs is represented proportionally to the width of each arc. The colors group the data into MSAs, aiding in making comparisions and distingusihing migration flows. <a href="http://www.datavizcatalogue.com/methods/chord_diagram.html">DataVizCatalogue</a>
+            </p>
+            <p>
+                A metropolitan statistical area as defined by the Office of Management and Budget states "MSA's have at least one urbanized area of 50,000 or more population, plus adjacent territory that has a high degree of social and economic integration with the core as measured by commuting ties" (White House Archives, 2015).
+            </p>
+            <p>
+                Built with <a href="http://d3js.org/">d3.js</a>.
+            </p>
+        </aside>
+
+    </div>
+
+    <!-- chord diagram visualization jpeg -->
+
+        <img src="chordDiagram.png" alt="Metropolitan Migration: Chord Diagram " align= "middle"; style="width:1016px; height:963px;">
+                
+    <!-- xxxxx -->
+
+    <div class="w3-container w3-padding-32" id="projects">
+
+
+        <p2><b>SYMBOL MAP</b></p2>
+
+        <aside align="justify">
+            This interactive symbol map, shows migration as a network across the United States between 2010 and 2014. An important concept of network theory is that "of a node's centrality in directed and weighted networks, there is a clear origin and a destination for migrators" (Goetz et al, 2010).
+            <p>
+                A metropolitan statistical area (MSA) as defined by the Office of Management and Budget states "MSA's have at least one urbanized area of 50,000 or more population, plus adjacent territory that has a high degree of social and economic integration with the core as measured by commuting ties" (White House Archives, 2015).
+            </p>
+            <p>
+                Each circle, node, or verticies of the migration network represents a metropolitan statistical area. The links or edges of the network represent the flow of human migrators between the metropolitan statistical areas.
+            </p>
+            <p>
+                Mouseover to show linkages or click on the circles to show the count of people migrating out of the metropolitan statistical area. The color key shows magnitude of people migrating.
+            </p>
+            <p>
+                Built with <a href="http://d3js.org/">d3.js</a>.
+            </p>
+
+        </aside>
+
+    </div>
+
+    <!-- symbol map visualization code -->
+        
+    <div>
+
+        <style type="text/css">
+        #states path {
+            fill: #808080;
+            stroke: #A9A9A9;
+        }
+        
+        path.arc {
+            pointer-events: none;
+            fill: none;
+            display: none;
+            stroke-width: 3.5;
+        }
+        
+        path.cell {
+            fill: none;
+            pointer-events: all;
+        }
+        
+        circle {
+            fill: #66B2FF;
+            fill-opacity: .8;
+            stroke: #fff;
+        }
+        
+        #cells.voronoi path.cell {
+            stroke: brown;
+        }
+        
+        #cells g:hover path.arc {
+            display: inherit;
+        }
+    </style>
+
+<body>
+
+    <div id="map"></div>
+
+    <div id="divTable">
+        <table id="tblResults">
+        </table>
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="symbolMap/d3.js"></script>
+    <script type="text/javascript" src="symbolMap/d3.csv.js"></script>
+    <script type="text/javascript" src="symbolMap/d3.geo.js"></script>
+    <script type="text/javascript" src="symbolMap/d3.geom.js"></script>
+    <script type="text/javascript">
+        //var color = d3.scaleOrdinal(d3.schemeAccent);
+        var color = d3.scale.linear().domain([1, 500, 1000, 3000, 5000, 10000, 20000, 90000]).range(["paleturquoise", "aquamarine", "turquoise", "lightseagreen", "deepskyblue", "dogerblue", "royalblue", "midnightblue"]);
+
+        var w = 1280,
+            h = 800;
+
+        var projection = d3.geo.azimuthal()
+            .mode("equidistant")
+            .origin([-98, 38])
+            .scale(1400)
+            .translate([640, 360]);
+
+        var path = d3.geo.path()
+            .projection(projection);
+
+        var svg = d3.select("#map").insert("svg:svg", "h2")
+            .attr("width", w)
+            .attr("height", h);
+
+        var states = svg.append("svg:g")
+            .attr("id", "states");
+
+        var circles = svg.append("svg:g")
+            .attr("id", "circles");
+
+        var cells = svg.append("svg:g")
+            .attr("id", "cells");
+
+        d3.select("input[type=checkbox]").on("change", function() {
+            cells.classed("voronoi", this.checked);
+        });
+
+        d3.json("symbolMap/us-states.json", function(collection) {
+            states.selectAll("path")
+                .data(collection.features)
+                .enter().append("svg:path")
+                .attr("d", path);
+        });
+
+        var linksByOrigin = {},
+            airportCodeToNames = [],
+            countByAirport = {},
+            locationByAirport = {},
+            positions = [];
+
+        d3.csv("symbolMap/migration.csv", function(flights) {
+
+
+            var arc = d3.geo.greatArc()
+                .source(function(d) {
+                    return locationByAirport[d.source];
+                })
+                .target(function(d) {
+                    return locationByAirport[d.target];
+                });
+
+            flights.forEach(function(flight) {
+                var origin = flight.origin,
+                    destination = flight.destination,
+                    links = linksByOrigin[origin] || (linksByOrigin[origin] = []);
+
+                links.push({
+                    source: origin,
+                    target: destination,
+                    count: flight.count
+                });
+
+                countByAirport[origin] = (countByAirport[origin] || 0) + 1;
+                countByAirport[destination] = (countByAirport[destination] || 0) + 1;
+            });
+
+            d3.csv("symbolMap/metropolitan.csv", function(airports) {
+
+                // Only consider airports with at least one flight.
+                airports = airports.filter(function(airport) {
+                    if (countByAirport[airport.iata]) {
+                        var location = [+airport.longitude, +airport.latitude];
+                        locationByAirport[airport.iata] = location;
+                        positions.push(projection(location));
+                        airportCodeToNames[airport.iata] = airport.city;
+                        return true;
+                    }
+                });
+
+                // Compute the Voronoi diagram of airports' projected positions.
+                var polygons = d3.geom.voronoi(positions);
+
+                var g = cells.selectAll("g")
+                    .data(airports)
+                    .enter().append("svg:g");
+
+                g.append("svg:path")
+                    .attr("class", "cell")
+                    .attr("d", function(d, i) {
+                        return "M" + polygons[i].join("L") + "Z";
+                    })
+                    .on("mouseover", function(d, i) {
+                        d3.select("h2 span").text(d.city);
+                    })
+                    .on("click", function(d, i)
+
+                        {
+                            console.log(d.name);
+                            //d3.select("h2 span").text(d.name);
+                            var inboundCities = linksByOrigin[d.iata];
+
+                            $("#tblResults").empty();
+
+                            inboundCities.forEach(function(inboundCity) {
+                                var origin = inboundCity.source;
+                                var target = inboundCity.target;
+                                var cityName = airportCodeToNames[target];
+
+                                $("#tblResults").append("<tr><td>" + cityName + " count - " + inboundCity.count + "</td></tr>")
+
+                            });
+
+                            console.log(inboundCities);
+                        });
+
+                g.selectAll("path.arc")
+                    .data(function(d) {
+                        return linksByOrigin[d.iata] || [];
+                    })
+                    .enter().append("svg:path")
+                    .attr("class", "arc")
+                    .attr("d", function(d) {
+                        try {
+                            return path(arc(d));
+                        } catch (e) {
+                            console.log(' - d: ' + d + ' - ' + e.message);
+                        }
+
+                    })
+                    .attr("stroke", function(d, i) {
+                        //console.log(color(d.count));
+                        return color(d.count);
+                    });
+
+                circles.selectAll("circle")
+                    .data(airports)
+                    .enter().append("svg:circle")
+                    .attr("cx", function(d, i) {
+                        return positions[i][0];
+                    })
+                    .attr("cy", function(d, i) {
+                        return positions[i][1];
+                    })
+                    .attr("r", function(d, i) {
+                        return ((countByAirport[d.iata])/2);
+                    })
+                    .sort(function(a, b) {
+                        return countByAirport[b.iata] - countByAirport[a.iata];
+                    });
+            });
+        });
+    </script>
+    
+    <img src="symbolMap/symbolMapBar.png" style="width:848 px;height: 108px;">
+    
+</body>
+
+    <!-- xxxx -->
+
+    <div class="w3-container w3-padding-32" id="projects">
+
+
+        <p3><b>CORRELATION MATRIX</b></p3>
+
+        <aside align="justify">
+            Correlation matrix
+            diagrams visualize a network by treating nodes as rows and columns of a table. This
+            correlation matrix shows migration flow counts between the ten largest metropolitan statistical areas (MSA) across the United States between 2010 and 2014.
+            <p>
+                A metropolitan statistical area (MSA) as defined by the Office of Management and Budget states "MSA's have at least one urbanized area of 50,000 or more population, plus adjacent territory that has a high degree of social and economic integration with the core as measured by commuting ties" (White House Archives, 2015).
+            </p>
+            Each grid contains the number of individuals migrating from one MSA to another MSA. The size of the circle correlates to the magnitude of individuals migrating from point A to point B.
+            <p>
+                Built with Adobe Illustrator.
+            </p>
+
+        </aside>
+        
+        <!-- correlation matrix svg --> 
+        
+        <img src="correlationMatrix.svg" alt="Correlation Matrix" style="width:1065 px; height: 818px;">
+        
+        <!-- xxxx --> 
+
+    </div>
+
+</body>
+
+</html>

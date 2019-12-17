@@ -1,0 +1,58 @@
+body { margin: 0; }
+
+#time-log {
+  position: absolute;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: white;
+  color: white;
+  bottom: 10px;
+  right: 10px;
+}
+
+.sphere {
+  fill: aqua;
+  fill-opacity: 0.04;
+}
+
+.land {
+  fill: darkgrey;
+  fill-opacity: 0.2;
+}
+
+.graticule {
+  stroke: black;
+  stroke-width: 0.1;
+  stroke-opacity: 0.3;
+  fill: none;
+  vector-effect: non-scaling-stroke;
+}
+
+.voronoi {
+  fill: red;
+  fill-opacity: 0;
+  stroke: black;
+  stroke-width: 0.2;
+  stroke-opacity: 0.3;
+  vector-effect: non-scaling-stroke;
+}
+
+.voronoi:hover {
+  fill-opacity: 0.1;
+}
+
+.satellite {
+  pointer-events: none;
+}
+
+.tooltip {
+  color: #eee;
+  background: rgba(0,0,140,0.7);
+  padding: 5px;
+  border-radius: 3px;
+  font: 11px sans-serif;
+  text-align: center;
+  pointer-events: none;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<title>Space and CounterSpace</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<script src="//unpkg.com/frame-ticker"></script>
+<script src="//unpkg.com/kapsule"></script>
+<script src="//unpkg.com/dat.gui"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+<script src="//unpkg.com/d3-tip@0"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script src="//unpkg.com/d3-geo-voronoi@0"></script>
+<script src="//unpkg.com/d3-geo-zoom@1"></script>
+
+<script src="//unpkg.com/satellite.js/dist/satellite.min.js"></script>
+
+<script src="satellites-view.js"></script>
+<script src="satellites-frame.js"></script>
+<script src="earth-layer.js"></script>
+<script src="satellite-layer.js"></script>
+
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="/index.html" class="w3-bar-item w3-button"><b>Think</b> SPATIAL</a>
+
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="/index.html" class="w3-bar-item w3-button">PROJECTS</a>
+                <a href="/index.html" class="w3-bar-item w3-button">ABOUT</a>
+                <a href="/index.html" class="w3-bar-item w3-button">CONTACT</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+
+        <!-- Main Content -->
+
+        <!-- Page content -->
+        <div class="w3-content w3-padding" style="max-width:1564px">
+
+            <!-- Main Content -->
+            <!-- the following below adds in space between the header and body -->
+            <h1><br></h1>
+
+            <h2>Space and Counter Space</h2>
+
+            <p><b>PART ONE | A Visualization of China's Use of Soft Power Around the World</b></p>
+
+            <p align="justify">China's use of soft power poses a threat to United States foreign policy interests around the world. In 2018 the U.S. Intelligence Community identified China as a potential threat to the United States in their <a href="https://www.dni.gov/files/ODNI/documents/2019-ATA-SFR---SSCI.pdf">Worldwide Threat Assessment</a>.</p>
+
+            <p align="justify"><b>Space and Counter Space</b>: "All actors will increasingly have access to space-derived information services, such as imagery, weather, communications, and positioning, navigation, and timing for intelligence, military scientific, or business purposes. Foreign countries — particularly China and Russia — will continue to expand their space-based reconnaissance, communications, and navigation systems in terms of the numbers of satellites, the breadth of their capability, and the applications for use" (Director of National Intelligence, 2018, p. 13).</p>
+        </div>
+
+        <div class="w3-content w3-padding" style="max-width:1564px">
+
+            <h><b>ORBIT OF UNITED STATES AND CHINESE SATELLITES AROUND EARTH</b></h>
+            <p align="justify">To represent China’s expansion of their “space-based reconnaissance, communications, and navigation systems in terms of the number of satellites, the breadth of their capability, and their applications for use” (Director of National Intelligence, 2018, p. 13) we examine the <a href="https://www.ucsusa.org/resources/satellite-database">Union of Concerned Scientists Space Security</a> space security database. Scientists collected open-source data on 2,062 satellites currently orbiting Earth, including country of origin, purpose, and other operational details. To exhibit Chinese, Russian, and United States influence in space and counter space, the data was compiled and visualized on an interactive globe that accurately displays satellites in their respective orbit, altitude from earth, and from each other. Because the database included the five-digit unique satellite catalog number also known as NORAD, we were able to use this data to generate TLE-3 formatted data. The Two Line Elements (TLE) is a standard mathematical model that describes a satellite’s orbit using the position and velocity at a given point in time. To calculate the TLE-3 for Chinese, Russia, and United States satellites identified in the database, we used <a href="https://www.space-track.org/auth/login">Space Track</a> — the primary distributor of U.S. Department of Defense 2-line orbital elements and related data. Space-Track “promote[s] space flight safety, protection of the space environment and the peaceful use of space worldwide by sharing space situational awareness services and information with U.S. and international satellite owners/operators, academia and other entities.” Each satellite is projected at the “latest epoch” according to Space-Track. The area of each circle is inversely proportional to the satellite’s altitude from the surface of the earth, so the closer and faster orbiting satellites exhibit a larger radius. The visualization was created based on the work of Vasco Asturiano and Mike Bostock.</p>
+
+            <p>Expand the control box to view satellties by:</p>
+            <ul style="list-style-type: georgian">
+                <li>Chinese Operated/Owned (<i>in blue</i>)</li>
+                <li>United States Operated/Owned (<i>in orange</i>)</li>
+                <li>6 Largest Chinese Operators/Owners (<i>in green</i>)</li>
+                <li>6 Largest United States Operators/Owners (<i>in red</i>)</li>
+            </ul>
+
+            <p>Zoom in and out to view satellite orbit paths at different scales. <br>
+                Select multiple categories to observe similar orbit paths and patterns. <br></p>
+
+            <p>We further analyze U.S. and Chinese Satellites capabilties below.</p>
+
+            <div id="chart"></div>
+            <div id="time-log"></div>
+            <script src="index.js"></script>
+
+        </div>
+
+        <div class="w3-content w3-padding" style="max-width:1564px">
+
+            <p align="justify">The following inforgraphic is an investigation of the largest 6 operator/owners of Chinese and U.S. satellites.</p>
+
+            <img src="/project3/images/img1.png" align="left" hight="50%" , width=50%>
+            <img src="/project3/images/img2.png" align="right" hight="50%" , width=50%>
+            <img src="/project3/images/img3.png" align="right" hight="50%" , width=50%>
+            <img src="/project3/images/img4.png" align="left" hight="50%" , width=50%>
+            <img src="/project3/images/img5.png" align="left" hight="50%" , width=50%>
+            <img src="/project3/images/img7.png" align="" hight="50%" , width=50%>
+
+            <p align="justify">The United States operates 901 satellites while China has only 299 operational satellites. While the United States may have more satellites orbiting the earth, Chinese satellite capabilities are exponentially expanding. As part of China’s 2025 Belt and Road Initiative a more robot space program is part of the agenda. The recent published reports by the U.S. — China Economic and Security Review Commission (USCC) on China’s advances in space highlights there is growing concern on China’s space efforts and its implications for space security. From <i>China in Space: A Strategic Competition? </i> (USCC), <i>The Creation of the PLA Strategic Support Force and Its Implications for Chinese Military Space Operations </i> (RAND), or <i>Space Exploration and U.S. Competitiveness </i>(Council on Foreign Relations) — comprehensive research on China in space are being conducted by public policy think tanks, government institutions, and private defense corporations.</p>
+            <ul style="list-style-type: disc">
+                <li> <a href="https://www.uscc.gov/research/china-dream-space-dream-chinas-progress-space-technologies-and-implications-united-states">China Dream, Space Dream: China's Progress in Space Technologies and Implications for the United States</a>.</li>
+                <li><a href="https://www.uscc.gov/hearings/china-space-strategic-competition">China in Space: A Strategic Competition?</a></li>
+                <li><a href="https://www.uscc.gov/research/chinas-pursuit-space-power-status-and-implications-united-states">China's Pursuit of Space Power Status and Implications for the United States</a></li>
+                <li><a href="https://www.uscc.gov/research/assessment-chinas-anti-satellite-and-space-warfare-programs-policies-and-doctrines">An Assessment of China's Anti-Satellite and Space Warfare Programs, Policies, and Doctrines</a></li>
+                <li><a href="https://www.uscc.gov/hearings/hearing-chinas-proliferation-practices-and-development-its-cyber-and-space-warfare">China’s Proliferation Practices, and the Development of its Cyber and Space Warfare Capabilities</a></li>
+            </ul>
+
+            <p><b>THE UNITED STATES and CHINESE SATELLITE LANDSCAPE</b></p>
+
+            <p align="justify">Next we delve into an indepth analysis of the Chinese/U.S. Satellite landscape where we compare and contrast the number of operational satellites, satellites users, and the purpose of the satellites.</p>
+
+            <p align="justify">Since 2007, China and the United States have steadily increased the number of satellites launched with a dramatic surge in 2017 and 2018. The spike in satellite launches by the United States in 2017 is due to the new 2k and 3p Dove Planet Labs constellations. The the main purposes of satellites for both China and the United States is for earth observation, communication, and technology development. The United States based company Planet Labs operates and owns 23.86% or 215 of all U.S. registered satellites, followed by Iridium Communications Inc. with 8.88% or 80 registered satellites. In China, the People’s Liberation Army operates and owns 20.74% or 62 of the total 299 Chinese satellites, followed by the Chinese Defense Ministry in control of 13.38% or 40 of registered satellites. Of the six largest satellite operators and owners, the Chinese government controls 52.85% compared to only 15.32% of satellites in the United States directly controlled by the government. The number of classified U.S or Chinese satellites remain unknown. Of the six largest U.S. satellite operators, three of them are private companies (Planet Labs, Iridium Communications Inc., and Spire Global Inc.) with the other three operators the Department of Defense, National Aeronautics and Space Administration, and the National Reconnaissance Office. The number of satellites operated by the Chinese (122 satellites) and U.S. (164 satellites) government is surprisingly proportional, but there are about three times more commercial satellite users than government users in the United States.
+            </p>
+
+            <img src="/project3/images/img13.png" align="" height="75%" , width=75%>
+            <img src="/project3/images/img14.png" align="" height="75%" , width=75%>
+
+
+            <img src="/project3/images/img11.png" align="left" height="70%" , width=70%>
+            <img src="/project3/images/img8.png" align="left" height="70%" , width=70%>
+
+            <img src="/project3/images/img12.png" align="" height="70%" , width=70%>
+            <img src="/project3/images/img10.png" align="left" height="70%" , width=70%>
+
+
+            <img src="/project3/images/img9.png" align="left" height="70%" , width=70%>
+
+            <p align="justify">The United States possesses more access to “space-derived information services” (Director of National Intelligence, 2018, p. 13) but China is rapidly expanding their space program to meet their growing needs for more in-depth 24-7 intelligence imagery, weather forecasting, communication capabilities, and position and navigation intelligence. Around the world, countries have addressed the security concerns of BeiDou GPS satellite capabilities. The recent and continued launch of the BeiDou navigation satellites will create a network by the end of 2020 that will consist of more than 30 satellites to give global communication and navigation coverage for both commercial and military applications. Understanding the space-satellite landscape is vital in accurately assessing future threats China poses to United States space capabilities around the world.
+            </p>
+
+
+        </div>
+        
+    </div>
+
+
+</body>
+
+</html>

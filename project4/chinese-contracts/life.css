@@ -1,0 +1,93 @@
+/* Normalize */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, figure, form, fieldset, input, p, blockquote, th, td, legend {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: Georgia, Times, serif;
+}
+h1 {
+    font-family: Georgia, Times, serif;
+    font-size: 3.0em;
+}
+h2 {
+    font-family: Georgia, Times, serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+p { line-height: 1.4em; margin-bottom: 1.0em; }
+a { color: #821122; }
+#content {
+    width: 925px;
+    margin: 0 auto;
+}
+#filters {
+    font-family: Georgia, Times, serif;
+    margin-bottom: 20px;
+}
+#filters a {
+    color: #000;
+    font-size: 12px;
+    padding: 5px;
+    background: #e2e2e2;
+    cursor: pointer;
+    margin-right: 3px;
+}
+#filters a:last-child {
+    margin-right: 0;
+}
+#filters a.SAS { background: #895881; color: #fff; }
+#filters a.ECS { background: #ED7C31; color: #fff; }
+#filters a.MEA { background: #950714; color: #fff; }
+#filters a.SSF { background: #6E9E75; color: #fff; }
+#filters a.LCN { background: #00BBD6; color: #fff; }
+#filters a.EAS { background: #e25f82; color: #fff; }
+#filters a.NAC { background: #be1932; color: #fff; }
+
+#vis {
+    min-height: 550px;
+}
+#blurb {
+    height: 60px;
+    border-top: 1px solid #e2e2e2;
+    padding-top: 20px;
+}
+
+path {
+    stroke: rgb(78,117,191);
+    stroke-width: 1.75;
+	fill: none;
+}
+path.current, path.highlight.current {
+    stroke: rgb(223,131,71);
+    stroke-width: 1.75;
+}
+.SAS.highlight { stroke: #895881; }
+.ECS.highlight { stroke: #ED7C31; }
+.MEA.highlight { stroke: #950714; }
+.SSF.highlight { stroke: #6E9E75; }
+.LCN.highlight { stroke: #00BBD6; }
+.EAS.highlight { stroke: #e25f82; }
+.NAC.highlight { stroke: #be1932; }
+.highlight { stroke-width: 2px; } 
+
+line {
+    stroke: black;
+}
+
+text {
+    font-family: Georgia, Times, serif;
+    font-size: 11px;
+}
+.axis {
+    stroke-width: 0.8;
+    stroke: #000;
+}
+.xTicks, .yTicks {
+    stroke-width: 0.8;
+    stroke: #000;
+}
+
+
+#cite { font-size: 0.8em; text-align: right; margin-top:10px; padding-bottom: 20px; }
+#cite a { background: #e2e2e2; text-decoration: none; color: #821122; }
